@@ -1,0 +1,21 @@
+body{
+    background-image: url("../images/into-the-spider-verse-wallpaper-1080p-1920×1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 100%;
+}
+
+.highlight{
+    background-color: rgba(62, 67, 147, 1);
+    color: black;
+    padding: 5px;
+}
+
+.character{
+    background-color: rgba(62, 67, 147, 1);
+    color: black;
+    padding: 5px;
+}
