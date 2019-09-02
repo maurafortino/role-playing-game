@@ -8,7 +8,7 @@ img{
     width: 100%;
 }
 
-.highlight{
+h2{
     background-color: rgba(62, 67, 147, 1);
     color: black;
     padding: 5px;
@@ -18,4 +18,8 @@ img{
     background-color: rgba(62, 67, 147, 1);
     color: black;
     padding: 5px;
+}
+
+span{
+    font-size: .75rem;
 }
