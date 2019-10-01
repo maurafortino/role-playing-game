@@ -1,48 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--CSS links-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Jquery link-->
     <script src="assets/javascript/jquery-3.3.1.min.js"></script>
-    
+
     <title>Document</title>
 </head>
+
 <body>
+    <div class="title row">
+        <div class="col-6">
+            <h1>RPG Game: Spiderman: Into the Spiderverse</h1>
+        </div>
+        <div class="col-6">
+            <p id="wins"></p>
+            <p id="losses"></p>
+        </div>
+
+    </div>
     <div class="container">
         <div id="choose-character" class="row">
         </div>
 
         <div id="images" class="row text-center">
-
-        </div>
-        <div id="hero" class="row">
-
-        </div>
-        <div id="defenders-title" class="row">
             
+        </div>
+
+        <div id="directions" class="row rounded">
+            <ol>
+                <li>Choose a character from the four above to be your Hero. The other three will become your enemies</li>
+                <li>Choose an enemy one at a time</li>
+                <li>Use the 'A' button to attack</li>
+                <li>Once you defeat an enemy, choose another. If you defeat all enemies you win the game</li>
+            </ol>
+        </div>
+
+        <div class="row justify-content-between align-items-center">
+            <div class="col-3">
+                <h2 class="hero-title"></h2>
+                <div class="hero-name">
+
+                </div>
+                <div class="hero-image">
+
+                </div>
+                <div class="hero-health">
+
+                </div>
+            </div>
+
+            <div id="attack" class="col-1">
+
+            </div>
+
+            <div class="col-3">
+                <h2 class="enemy-title"></h2>
+                <div class="enemy-name">
+
+                </div>
+                <div class="enemy-image">
+
+                </div>
+                <div class="enemy-health">
+
+                </div>
+            </div>
+
+        </div>
+ 
+
+        <div id="defenders-title" class="row">
+
         </div>
         <div id="defenders" class="row">
 
         </div>
     </div>
 
+    <!--JS link-->
+    <script src="assets/javascript/game.js"></script>
 
-
-
-
-
-<!--JS link-->
-<script src="assets/javascript/game.js"></script>
-
-<!--Bootstrap JS links-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--Bootstrap JS links-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

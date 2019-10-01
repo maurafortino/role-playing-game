@@ -10,16 +10,32 @@ img{
 
 h2{
     background-color: rgba(62, 67, 147, 1);
-    color: black;
+    color: white;
     padding: 5px;
 }
 
-.character{
-    background-color: rgba(62, 67, 147, 1);
-    color: black;
-    padding: 5px;
+#directions{
+    background-color:rgba(62, 67, 147, .5);
+    margin-top: 10px;
+    padding-top: 10px;
+    color: white;
 }
 
 span{
     font-size: .75rem;
+}
+
+.hero-name, .hero-image, .hero-health, .enemy-health, .enemy-image, .enemy-name{
+    width: 100%;
+    color: white;
+}
+p, h1, figcaption{
+    color: white;
+}
+
+button{
+    background-color: rgba(62, 67, 147, 1);
+    padding: 10px;
+    border: none;
+    color: white;
 }
